@@ -28,7 +28,7 @@ function toggleMobileMenu(){
 
 /* Shopping Cart en Mobile o Desktop */
 const shoppingCart = document.querySelector('.navbar-shopping-cart');
-const productsShoppingCart = document.querySelector('.product-detail');
+const productsShoppingCart = document.querySelector('#shoppingCartContainer');
 shoppingCart.addEventListener('click', toggleShoppingCart);
 function toggleShoppingCart(){
     const isMobileMenuClose = mobileMenu.classList.contains('inactive');
